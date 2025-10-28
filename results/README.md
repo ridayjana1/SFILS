@@ -8,7 +8,6 @@ This folder contains key findings and performance metrics from analyzing the SFI
 - **Patron Demographics:** The most common patron types and age ranges can be seen in the `/patrons` and `/activities` views.
 - **Monthly Trends:** The busiest circulation months were [insert busiest months if you found them].
 
-### Example Statistics
 
 - There were [5] unique patrons in the dataset.
 - Branch "Main" had [10] checkouts in total.

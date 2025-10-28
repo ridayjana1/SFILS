@@ -21,6 +21,7 @@ This folder contains scripts and instructions related to the MySQL database sche
 ## mySQL scripts
  `CREATE DATABASE sf_library;`
  `USE sf_library;`
+ 
  `CREATE TABLE patrons (
         patron_id INT AUTO_INCREMENT PRIMARY KEY,
         year_registered INT,
@@ -29,12 +30,12 @@ This folder contains scripts and instructions related to the MySQL database sche
         provided_email BOOLEAN,
         within_sf_county BOOLEAN,
         patron_type VARCHAR(20)
-     );
+     );`
 
-    CREATE TABLE branches (
+    `CREATE TABLE branches (
          branch_id INT AUTO_INCREMENT PRIMARY KEY,
          branch_name VARCHAR(50)
-    );
+    );`
 
      CREATE TABLE activities (
          activity_id INT AUTO_INCREMENT PRIMARY KEY,
